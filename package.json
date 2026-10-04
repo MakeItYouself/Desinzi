@@ -1,0 +1,12 @@
+{
+  "name": "desinzi-zero-humo",
+  "version": "0.55.0",
+  "private": true,
+  "description": "DESINZI · ZERO HUMO — release candidate técnico",
+  "type": "module",
+  "scripts": {
+    "test": "node backend/qa.mjs",
+    "mobile:prepare": "node scripts/prepare-mobile.mjs",
+    "mobile:qa": "node scripts/qa-mobile.mjs"
+  }
+}

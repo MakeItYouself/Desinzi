@@ -1,0 +1,1643 @@
+{
+  "schemaVersion": 4,
+  "knowledgeVersion": "2026.10.04-016",
+  "publishedAt": "2026-10-04T20:15:00+02:00",
+  "sources": [
+    {
+      "id": "eurlex-cosmetics",
+      "name": "Reglamento (CE) 1223/2009",
+      "authority": "EUR-Lex",
+      "type": "legal",
+      "url": "https://eur-lex.europa.eu/eli/reg/2009/1223/oj",
+      "checkedAt": "2026-10-04",
+      "role": "binding"
+    },
+    {
+      "id": "ec-cosmetics-legislation",
+      "name": "Legislación de cosméticos de la Comisión Europea",
+      "authority": "European Commission",
+      "type": "legal",
+      "url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/legislation_en",
+      "checkedAt": "2026-10-04",
+      "role": "official-context"
+    },
+    {
+      "id": "eu-reg-2026-909",
+      "name": "Reglamento (UE) 2026/909 y correcciones de errores",
+      "authority": "EUR-Lex",
+      "type": "legal",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/909/oj/",
+      "checkedAt": "2026-10-04",
+      "role": "binding-amendment"
+    },
+    {
+      "id": "ec-cosing",
+      "name": "CosIng — Cosmetic ingredient database",
+      "authority": "European Commission",
+      "type": "informational",
+      "url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/cosmetic-ingredient-database_en",
+      "checkedAt": "2026-10-04",
+      "role": "informational-not-binding"
+    },
+    {
+      "id": "ec-sccs",
+      "name": "Scientific Committee on Consumer Safety (SCCS)",
+      "authority": "European Commission",
+      "type": "scientific",
+      "url": "https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs_en",
+      "checkedAt": "2026-10-04",
+      "role": "scientific-opinions"
+    },
+    {
+      "id": "eu-claims",
+      "name": "Criterios comunes para reivindicaciones cosméticas",
+      "authority": "EUR-Lex",
+      "type": "legal-context",
+      "url": "https://eur-lex.europa.eu/eli/reg/2013/655/oj",
+      "checkedAt": "2026-10-04",
+      "role": "legal-context"
+    },
+    {
+      "id": "aepd-design",
+      "name": "Protección de datos desde el diseño",
+      "authority": "AEPD",
+      "type": "privacy",
+      "url": "https://www.aepd.es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/proteccion-de-datos-desde-el-diseno",
+      "checkedAt": "2026-10-04",
+      "role": "privacy-guidance"
+    },
+    {
+      "id": "eu-reg-2026-909-corrigendum",
+      "name": "Corrección de errores del Reglamento (UE) 2026/909",
+      "authority": "EUR-Lex",
+      "type": "legal-corrigendum",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/909/corrigendum/2026-05-08/oj",
+      "checkedAt": "2026-10-04",
+      "role": "binding-corrigendum"
+    },
+    {
+      "id": "eu-reg-2026-78",
+      "name": "Reglamento (UE) 2026/78",
+      "authority": "EUR-Lex",
+      "type": "legal",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/78/oj",
+      "checkedAt": "2026-10-04",
+      "role": "binding-amendment"
+    },
+    {
+      "id": "eu-reg-2026-78-corrigendum",
+      "name": "Corrección de errores del Reglamento (UE) 2026/78",
+      "authority": "EUR-Lex",
+      "type": "legal-corrigendum",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/78/corrigendum/2026-07-23/oj",
+      "checkedAt": "2026-10-04",
+      "role": "binding-corrigendum"
+    },
+    {
+      "id": "eurlex-current-consolidated-2026-05-18",
+      "name": "Texto refundido vigente del Reglamento (CE) 1223/2009 (acceso actual 18/05/2026)",
+      "type": "legal-current",
+      "authority": "EUR-Lex",
+      "url": "https://eur-lex.europa.eu/eli/reg/2009/1223/oj",
+      "lastChecked": "2026-10-04",
+      "currentConsolidated": "2026-05-18",
+      "role": "binding-context"
+    },
+    {
+      "id": "sccs-opinions-2026",
+      "name": "SCCS — opiniones y asesoramiento científico",
+      "type": "scientific-current",
+      "authority": "European Commission",
+      "url": "https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs/sccs-opinions_en",
+      "lastChecked": "2026-10-04",
+      "role": "scientific-context"
+    },
+    {
+      "id": "sccs-mandates-2026",
+      "name": "SCCS — mandatos científicos",
+      "type": "scientific-monitoring",
+      "authority": "European Commission",
+      "url": "https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs/sccs-mandates_en",
+      "lastChecked": "2026-10-04",
+      "role": "monitoring-not-opinion"
+    },
+    {
+      "id": "sccs-thiomersal-2026",
+      "name": "SCCS — Thiomersal y sales fenilmercúricas",
+      "authority": "Comisión Europea / SCCS",
+      "type": "scientific",
+      "url": "https://health.ec.europa.eu/publications/sccs-scientific-advice-safety-thiomersal-cas-no-54-64-8-ec-no-200-210-4-and-phenylmercuric-salts_en",
+      "role": "scientific-opinion"
+    },
+    {
+      "id": "sccs-basic-brown-16-2026",
+      "name": "SCCS — Basic Brown 16",
+      "authority": "Comisión Europea / SCCS",
+      "type": "scientific",
+      "url": "https://health.ec.europa.eu/publications/sccs-scientific-advice-hair-dye-basic-brown-16-c009-cas-no-26381-41-9-ec-no-247-640-9-submission-v_en",
+      "role": "scientific-opinion"
+    },
+    {
+      "id": "eu-tbt-silver-2026",
+      "name": "UE — Notificación TBT sobre propuesta para Silver",
+      "authority": "Comisión Europea",
+      "type": "regulatory-monitoring",
+      "url": "https://technical-barriers-trade.ec.europa.eu/de/notification/40131",
+      "role": "draft-not-in-force"
+    },
+    {
+      "id": "open-beauty-facts",
+      "name": "Open Beauty Facts — datos de productos cosméticos",
+      "authority": "Open Beauty Facts / Open Food Facts",
+      "type": "product-data",
+      "url": "https://world.openbeautyfacts.org",
+      "checkedAt": "2026-10-04",
+      "role": "product-data-not-authority",
+      "licenseNote": "Los datos y las imágenes tienen condiciones de reutilización y licencias específicas. La app no trata esta fuente como autoridad regulatoria ni certificación de seguridad."
+    },
+    {
+      "id": "aemps-cosmetics-legislation",
+      "name": "AEMPS — Legislación sobre productos cosméticos",
+      "authority": "AEMPS",
+      "type": "official-context",
+      "url": "https://www.aemps.gob.es/cosmeticos/legislacion-sobre-productos-cosmeticos/",
+      "checkedAt": "2026-10-04",
+      "role": "official-context",
+      "licenseNote": "Fuente oficial española de carácter informativo; para efectos jurídicos prevalecen los textos oficiales del BOE y del Diario Oficial de la Unión Europea."
+    }
+  ],
+  "rules": {
+    "principles": [
+      "hazard_vs_risk",
+      "legal_status_vs_safety_claim",
+      "evidence_level_required",
+      "missing_data_must_not_be_invented",
+      "context_required_for_regulatory_limits",
+      "elemental_basis_requires_formulation_calculation",
+      "current_consolidated_law_must_not_be_treated_as_exhaustive_rule_coverage",
+      "scientific_monitoring_status_must_not_be_conflated_with_legal_status"
+    ],
+    "regulatoryPriority": [
+      "eurlex-cosmetics",
+      "ec-cosmetics-legislation",
+      "eu-reg-2026-909",
+      "eu-reg-2026-909-corrigendum",
+      "eu-reg-2026-78",
+      "eu-reg-2026-78-corrigendum"
+    ],
+    "informationalOnly": [
+      "ec-cosing"
+    ],
+    "scientificContext": [
+      "ec-sccs"
+    ],
+    "claimsContext": [
+      "eu-claims"
+    ],
+    "scientificMonitoringStatuses": [
+      "opinion-final",
+      "opinion-being-finalised",
+      "mandate"
+    ]
+  },
+  "activationPolicy": {
+    "verifySha256": true,
+    "verifyVersion": true,
+    "validateSchema": true,
+    "neverActivateUnverified": true,
+    "keepPreviousOnFailure": true,
+    "rollbackOnActivationFailure": true
+  },
+  "ingredients": {
+    "parfum": {
+      "id": "parfum",
+      "inci": "Parfum",
+      "kind": "Perfume / fragancia",
+      "status": "Información insuficiente",
+      "note": "“Parfum” puede representar una mezcla de sustancias aromáticas. La etiqueta no permite conocer por sí sola su composición completa ni la exposición.",
+      "evidence": "limited",
+      "evidenceText": "La función de etiquetado es clara, pero la composición concreta no lo es.",
+      "tone": "blue",
+      "sources": [
+        "ec-cosing"
+      ],
+      "checkedAt": "2026-10-04"
+    },
+    "aroma": {
+      "id": "aroma",
+      "inci": "Aroma",
+      "kind": "Aroma",
+      "status": "Información insuficiente",
+      "note": "“Aroma” es una denominación de etiquetado. No equivale por sí sola a “seguro” ni a “peligroso”.",
+      "evidence": "limited",
+      "evidenceText": "No permite identificar por sí sola toda la composición.",
+      "tone": "blue",
+      "sources": [
+        "ec-cosing"
+      ],
+      "checkedAt": "2026-10-04"
+    },
+    "limonene": {
+      "id": "limonene",
+      "inci": "Limonene",
+      "kind": "Componente de fragancia",
+      "status": "Sujeto a condiciones regulatorias UE",
+      "note": "Está sujeto a condiciones regulatorias específicas en la normativa de cosméticos de la UE. Su presencia no significa que el producto sea inseguro; deben comprobarse las condiciones aplicables.",
+      "tone": "amber",
+      "evidence": "strong",
+      "evidenceText": "La existencia de requisitos regulatorios está respaldada por la normativa UE; la etiqueta no permite por sí sola evaluar exposición.",
+      "sources": [
+        "eurlex-cosmetics",
+        "ec-cosing"
+      ],
+      "regulatoryReferences": [
+        "Reglamento (CE) 1223/2009 — Anexo III"
+      ],
+      "checkedAt": "2026-10-04"
+    },
+    "linalool": {
+      "id": "linalool",
+      "inci": "Linalool",
+      "kind": "Componente de fragancia",
+      "status": "Sujeto a condiciones regulatorias UE",
+      "note": "Está sujeto a condiciones regulatorias específicas en la normativa de cosméticos de la UE. La etiqueta no permite por sí sola comprobar concentración ni cumplimiento de todas las condiciones.",
+      "tone": "amber",
+      "evidence": "strong",
+      "evidenceText": "Situación regulatoria verificable en la normativa; no es una conclusión de riesgo individual.",
+      "sources": [
+        "eurlex-cosmetics",
+        "ec-cosing"
+      ],
+      "regulatoryReferences": [
+        "Reglamento (CE) 1223/2009 — Anexo III"
+      ],
+      "checkedAt": "2026-10-04"
+    },
+    "citral": {
+      "id": "citral",
+      "inci": "Citral",
+      "kind": "Componente de fragancia",
+      "status": "Sujeto a condiciones regulatorias UE",
+      "note": "Está sujeto a condiciones regulatorias específicas en la normativa de cosméticos de la UE. Su aparición no equivale a una declaración de peligro del producto.",
+      "tone": "amber",
+      "evidence": "strong",
+      "evidenceText": "Situación regulatoria verificable; falta contexto de exposición.",
+      "sources": [
+        "eurlex-cosmetics",
+        "eu-reg-2026-909",
+        "ec-cosing"
+      ],
+      "regulatoryReferences": [
+        "Reglamento (CE) 1223/2009 — Anexo III",
+        "Reglamento (UE) 2026/909 y correcciones de errores"
+      ],
+      "checkedAt": "2026-10-04",
+      "regulatoryRuleId": "citral"
+    },
+    "geraniol": {
+      "id": "geraniol",
+      "inci": "Geraniol",
+      "kind": "Componente de fragancia",
+      "status": "Sujeto a condiciones regulatorias UE",
+      "note": "Está sujeto a condiciones regulatorias específicas en la normativa de cosméticos de la UE. La evaluación depende del producto, uso y condiciones regulatorias.",
+      "tone": "amber",
+      "evidence": "strong",
+      "evidenceText": "Situación regulatoria verificable; la etiqueta no aporta toda la evaluación de seguridad.",
+      "sources": [
+        "eurlex-cosmetics",
+        "ec-cosing"
+      ],
+      "regulatoryReferences": [
+        "Reglamento (CE) 1223/2009 — Anexo III"
+      ],
+      "checkedAt": "2026-10-04"
+    },
+    "eugenol": {
+      "id": "eugenol",
+      "inci": "Eugenol",
+      "kind": "Componente de fragancia",
+      "status": "Sujeto a condiciones regulatorias UE",
+      "note": "Está sujeto a condiciones regulatorias específicas en la normativa de cosméticos de la UE. No puede concluirse “tóxico” solo por aparecer en un INCI.",
+      "tone": "amber",
+      "evidence": "strong",
+      "evidenceText": "Requisito regulatorio verificable, no una certificación de riesgo individual.",
+      "sources": [
+        "eurlex-cosmetics",
+        "ec-cosing"
+      ],
+      "regulatoryReferences": [
+        "Reglamento (CE) 1223/2009 — Anexo III"
+      ],
+      "checkedAt": "2026-10-04"
+    },
+    "coumarin": {
+      "id": "coumarin",
+      "inci": "Coumarin",
+      "kind": "Componente de fragancia",
+      "status": "Sujeto a condiciones regulatorias UE",
+      "note": "Está sujeto a condiciones regulatorias específicas en la normativa de cosméticos de la UE. La lista INCI no aporta por sí sola la concentración.",
+      "tone": "amber",
+      "evidence": "strong",
+      "evidenceText": "Situación regulatoria verificable; falta información de exposición.",
+      "sources": [
+        "eurlex-cosmetics",
+        "ec-cosing"
+      ],
+      "regulatoryReferences": [
+        "Reglamento (CE) 1223/2009 — Anexo III"
+      ],
+      "checkedAt": "2026-10-04"
+    },
+    "benzyl alcohol": {
+      "id": "benzyl-alcohol",
+      "inci": "Benzyl Alcohol",
+      "kind": "Conservante / componente aromático según uso",
+      "status": "Sujeto a condiciones regulatorias",
+      "note": "La función y las condiciones dependen del contexto de formulación. No se infiere seguridad individual por la mera presencia.",
+      "tone": "amber",
+      "evidence": "strong",
+      "evidenceText": "Existen condiciones regulatorias aplicables; el INCI no basta para concluir sobre el riesgo individual.",
+      "sources": [
+        "eurlex-cosmetics",
+        "ec-cosing"
+      ],
+      "regulatoryReferences": [
+        "Reglamento (CE) 1223/2009 — Anexo III"
+      ],
+      "checkedAt": "2026-10-04"
+    },
+    "glycerin": {
+      "id": "glycerin",
+      "inci": "Glycerin",
+      "kind": "Humectante",
+      "status": "Sin alerta automática por presencia",
+      "note": "Ayuda a retener agua. Esto describe su función, no certifica por sí solo la seguridad global del producto.",
+      "tone": "green",
+      "evidence": "strong",
+      "evidenceText": "La función cosmética es bien establecida; eso no equivale a una evaluación completa del producto.",
+      "sources": [
+        "ec-cosing"
+      ],
+      "checkedAt": "2026-10-04"
+    },
+    "aqua": {
+      "id": "aqua",
+      "inci": "Aqua",
+      "kind": "Disolvente / vehículo",
+      "status": "Sin alerta automática por presencia",
+      "note": "Agua. Su presencia en un INCI no permite evaluar por sí sola la seguridad global.",
+      "tone": "green",
+      "evidence": "strong",
+      "evidenceText": "Identificación y función sencillas; no se deriva una conclusión global del producto.",
+      "sources": [
+        "ec-cosing"
+      ],
+      "checkedAt": "2026-10-04"
+    },
+    "tocopherol": {
+      "id": "tocopherol",
+      "inci": "Tocopherol",
+      "kind": "Antioxidante / acondicionador",
+      "status": "Sin alerta automática por presencia",
+      "note": "Vitamina E / tocoferol usado en cosmética. La función no equivale a una certificación del producto.",
+      "tone": "green",
+      "evidence": "strong",
+      "evidenceText": "Función cosmética conocida; la valoración completa depende de formulación y uso.",
+      "sources": [
+        "ec-cosing"
+      ],
+      "checkedAt": "2026-10-04"
+    },
+    "ascorbic acid": {
+      "id": "ascorbic-acid",
+      "inci": "Ascorbic Acid",
+      "kind": "Acondicionador / antioxidante",
+      "status": "Sin alerta automática por presencia",
+      "note": "Ácido ascórbico. La valoración depende de formulación, concentración, uso y características del producto.",
+      "tone": "green",
+      "evidence": "strong",
+      "evidenceText": "Función conocida; la etiqueta por sí sola no determina el riesgo.",
+      "sources": [
+        "ec-cosing"
+      ],
+      "checkedAt": "2026-10-04"
+    },
+    "benzyl salicylate": {
+      "id": "benzyl-salicylate",
+      "inci": "Benzyl Salicylate",
+      "kind": "Componente de fragancia",
+      "status": "Sujeto a condiciones regulatorias UE",
+      "note": "La normativa establece límites según la categoría del producto y exige mención individual por encima de determinados umbrales. El INCI no aporta concentración.",
+      "evidence": "strong",
+      "evidenceText": "La situación regulatoria procede de una norma vinculante; el INCI por sí solo no permite comprobar el cumplimiento del producto completo.",
+      "tone": "amber",
+      "sources": [
+        "eu-reg-2026-909"
+      ],
+      "regulatoryRuleId": "benzyl-salicylate",
+      "checkedAt": "2026-10-04"
+    },
+    "triphenyl phosphate": {
+      "id": "triphenyl-phosphate",
+      "inci": "Triphenyl Phosphate",
+      "kind": "Sustancia regulada",
+      "status": "Prohibido en Anexo II con transición",
+      "note": "El Reglamento (UE) 2026/909 lo incorpora al Anexo II. Existen fechas transitorias específicas; no debe confundirse una ficha histórica con una declaración automática de ilegalidad actual.",
+      "evidence": "strong",
+      "evidenceText": "La situación regulatoria procede de una norma vinculante; el INCI por sí solo no permite comprobar el cumplimiento del producto completo.",
+      "tone": "red",
+      "sources": [
+        "eu-reg-2026-909"
+      ],
+      "regulatoryRuleId": "triphenyl-phosphate",
+      "checkedAt": "2026-10-04"
+    },
+    "acetylated vetiveria zizanioides root extract": {
+      "id": "acetylated-vetiveria-zizanioides-root-extract",
+      "inci": "Acetylated Vetiveria Zizanioides Root Extract",
+      "kind": "Fragancia",
+      "status": "Sujeto a límites regulatorios",
+      "note": "Tiene límites máximos según categoría de producto y condiciones específicas de estabilización de la materia prima.",
+      "evidence": "strong",
+      "evidenceText": "La situación regulatoria procede de una norma vinculante; el INCI por sí solo no permite comprobar el cumplimiento del producto completo.",
+      "tone": "amber",
+      "sources": [
+        "eu-reg-2026-909"
+      ],
+      "regulatoryRuleId": "acetylated-vetiver-oil",
+      "checkedAt": "2026-10-04"
+    },
+    "acetylated vetiveria zizanioides root oil": {
+      "id": "acetylated-vetiveria-zizanioides-root-oil",
+      "inci": "Acetylated Vetiveria Zizanioides Root Oil",
+      "kind": "Fragancia",
+      "status": "Sujeto a límites regulatorios",
+      "note": "Tiene límites máximos según categoría de producto y condiciones específicas de estabilización de la materia prima.",
+      "evidence": "strong",
+      "evidenceText": "La situación regulatoria procede de una norma vinculante; el INCI por sí solo no permite comprobar el cumplimiento del producto completo.",
+      "tone": "amber",
+      "sources": [
+        "eu-reg-2026-909"
+      ],
+      "regulatoryRuleId": "acetylated-vetiver-oil",
+      "checkedAt": "2026-10-04"
+    },
+    "hc blue no 18": {
+      "id": "hc-blue-no-18",
+      "inci": "HC Blue No 18",
+      "kind": "Colorante / tinte capilar",
+      "status": "Sujeto a condiciones regulatorias",
+      "note": "Su uso está regulado para tintes capilares y requiere comprobar concentración y tipo de tinte.",
+      "evidence": "strong",
+      "evidenceText": "La situación regulatoria procede de una norma vinculante; el INCI por sí solo no permite comprobar el cumplimiento del producto completo.",
+      "tone": "amber",
+      "sources": [
+        "eu-reg-2026-909"
+      ],
+      "regulatoryRuleId": "hc-blue-no-18",
+      "checkedAt": "2026-10-04"
+    },
+    "zinc acetate": {
+      "id": "zinc-acetate",
+      "inci": "Zinc Acetate",
+      "kind": "Sal de zinc",
+      "status": "Sujeto a condiciones regulatorias",
+      "note": "El Reglamento (UE) 2026/909 establece límites expresados como zinc según tipo de producto y grupo de edad.",
+      "evidence": "strong",
+      "evidenceText": "La situación regulatoria procede de una norma vinculante; el INCI por sí solo no permite comprobar el cumplimiento del producto completo.",
+      "tone": "amber",
+      "sources": [
+        "eu-reg-2026-909"
+      ],
+      "regulatoryRuleId": "water-soluble-zinc-salts",
+      "checkedAt": "2026-10-04"
+    },
+    "zinc chloride": {
+      "id": "zinc-chloride",
+      "inci": "Zinc Chloride",
+      "kind": "Sal de zinc",
+      "status": "Sujeto a condiciones regulatorias",
+      "note": "El Reglamento (UE) 2026/909 establece límites expresados como zinc según tipo de producto y grupo de edad.",
+      "evidence": "strong",
+      "evidenceText": "La situación regulatoria procede de una norma vinculante; el INCI por sí solo no permite comprobar el cumplimiento del producto completo.",
+      "tone": "amber",
+      "sources": [
+        "eu-reg-2026-909"
+      ],
+      "regulatoryRuleId": "water-soluble-zinc-salts",
+      "checkedAt": "2026-10-04"
+    },
+    "zinc gluconate": {
+      "id": "zinc-gluconate",
+      "inci": "Zinc Gluconate",
+      "kind": "Sal de zinc",
+      "status": "Sujeto a condiciones regulatorias",
+      "note": "El Reglamento (UE) 2026/909 establece límites expresados como zinc según tipo de producto y grupo de edad.",
+      "evidence": "strong",
+      "evidenceText": "La situación regulatoria procede de una norma vinculante; el INCI por sí solo no permite comprobar el cumplimiento del producto completo.",
+      "tone": "amber",
+      "sources": [
+        "eu-reg-2026-909"
+      ],
+      "regulatoryRuleId": "water-soluble-zinc-salts",
+      "checkedAt": "2026-10-04"
+    },
+    "zinc glutamate": {
+      "id": "zinc-glutamate",
+      "inci": "Zinc Glutamate",
+      "kind": "Sal de zinc",
+      "status": "Sujeto a condiciones regulatorias",
+      "note": "El Reglamento (UE) 2026/909 establece límites expresados como zinc según tipo de producto y grupo de edad.",
+      "evidence": "strong",
+      "evidenceText": "La situación regulatoria procede de una norma vinculante; el INCI por sí solo no permite comprobar el cumplimiento del producto completo.",
+      "tone": "amber",
+      "sources": [
+        "eu-reg-2026-909"
+      ],
+      "regulatoryRuleId": "water-soluble-zinc-salts",
+      "checkedAt": "2026-10-04"
+    },
+    "zinc citrate": {
+      "id": "zinc-citrate",
+      "inci": "Zinc Citrate",
+      "kind": "Sal de zinc",
+      "status": "Sujeto a condiciones regulatorias",
+      "note": "El Reglamento (UE) 2026/909 establece límites expresados como zinc según tipo de producto y grupo de edad.",
+      "evidence": "strong",
+      "evidenceText": "La situación regulatoria procede de una norma vinculante; el INCI por sí solo no permite comprobar el cumplimiento del producto completo.",
+      "tone": "amber",
+      "sources": [
+        "eu-reg-2026-909"
+      ],
+      "regulatoryRuleId": "water-soluble-zinc-salts",
+      "checkedAt": "2026-10-04"
+    },
+    "zinc sulphate": {
+      "id": "zinc-sulphate",
+      "inci": "Zinc Sulphate",
+      "kind": "Sal de zinc",
+      "status": "Sujeto a condiciones regulatorias",
+      "note": "El Reglamento (UE) 2026/909 establece límites expresados como zinc según tipo de producto y grupo de edad.",
+      "evidence": "strong",
+      "evidenceText": "La situación regulatoria procede de una norma vinculante; el INCI por sí solo no permite comprobar el cumplimiento del producto completo.",
+      "tone": "amber",
+      "sources": [
+        "eu-reg-2026-909"
+      ],
+      "regulatoryRuleId": "water-soluble-zinc-salts",
+      "checkedAt": "2026-10-04"
+    },
+    "ammonium silver zinc aluminium silicate": {
+      "id": "silver-zinc-zeolite",
+      "inci": "Ammonium Silver Zinc Aluminium Silicate",
+      "kind": "Conservante",
+      "status": "Permitido bajo condiciones específicas",
+      "note": "La normativa vigente permite su uso como conservante en desodorantes en spray y bases de maquillaje en polvo hasta 1 %, con una condición adicional sobre el contenido de plata.",
+      "evidence": "strong",
+      "evidenceText": "La condición procede de una norma vinculante y se apoya en la evaluación del SCCS.",
+      "tone": "amber",
+      "sources": [
+        "eu-reg-2026-909",
+        "ec-sccs"
+      ],
+      "regulatoryReferences": [
+        "Reglamento (CE) 1223/2009 — Anexo V, entrada 61",
+        "Reglamento (UE) 2026/909"
+      ],
+      "regulatoryRuleId": "silver-zinc-zeolite",
+      "checkedAt": "2026-10-04"
+    },
+    "aluminium": {
+      "id": "aluminium-containing-ingredients",
+      "inci": "Aluminium",
+      "kind": "Ingrediente que contiene aluminio",
+      "status": "Sujeto a condiciones regulatorias",
+      "note": "Algunos ingredientes que contienen aluminio están sujetos a límites específicos y existen excepciones para determinadas entradas de los anexos. El INCI aislado no permite identificar automáticamente la entrada exacta.",
+      "evidence": "strong",
+      "evidenceText": "La existencia de restricciones es normativa; la identificación exacta de la sustancia es necesaria para aplicar la condición correcta.",
+      "tone": "amber",
+      "sources": [
+        "eu-reg-2026-909"
+      ],
+      "regulatoryReferences": [
+        "Reglamento (CE) 1223/2009 — Anexo III, entrada 379"
+      ],
+      "regulatoryRuleId": "aluminium-containing-ingredients",
+      "checkedAt": "2026-10-04"
+    },
+    "aluminum": {
+      "id": "aluminium-containing-ingredients",
+      "inci": "Aluminum",
+      "kind": "Ingrediente que contiene aluminio",
+      "status": "Sujeto a condiciones regulatorias",
+      "note": "Algunos ingredientes que contienen aluminio están sujetos a límites específicos y existen excepciones para determinadas entradas de los anexos. El INCI aislado no permite identificar automáticamente la entrada exacta.",
+      "evidence": "strong",
+      "evidenceText": "La existencia de restricciones es normativa; la identificación exacta de la sustancia es necesaria para aplicar la condición correcta.",
+      "tone": "amber",
+      "sources": [
+        "eu-reg-2026-909"
+      ],
+      "regulatoryReferences": [
+        "Reglamento (CE) 1223/2009 — Anexo III, entrada 379"
+      ],
+      "regulatoryRuleId": "aluminium-containing-ingredients",
+      "checkedAt": "2026-10-04"
+    },
+    "hc red no 18": {
+      "id": "hc-red-no-18",
+      "inci": "HC Red No 18",
+      "kind": "Colorante / tinte capilar",
+      "status": "Sujeto a condiciones regulatorias",
+      "note": "Tiene límites diferentes según sea un tinte oxidativo o no oxidativo.",
+      "evidence": "strong",
+      "evidenceText": "La condición procede de una norma vinculante basada en una evaluación del SCCS.",
+      "tone": "amber",
+      "sources": [
+        "eu-reg-2026-909",
+        "ec-sccs"
+      ],
+      "regulatoryReferences": [
+        "Reglamento (CE) 1223/2009 — Anexo III, entrada 381"
+      ],
+      "regulatoryRuleId": "hc-red-no-18",
+      "checkedAt": "2026-10-04"
+    },
+    "hc yellow no 16": {
+      "id": "hc-yellow-no-16",
+      "inci": "HC Yellow No 16",
+      "kind": "Colorante / tinte capilar",
+      "status": "Sujeto a condiciones regulatorias",
+      "note": "Tiene límites diferentes según sea un tinte oxidativo o no oxidativo.",
+      "evidence": "strong",
+      "evidenceText": "La condición procede de una norma vinculante basada en una evaluación del SCCS.",
+      "tone": "amber",
+      "sources": [
+        "eu-reg-2026-909",
+        "ec-sccs"
+      ],
+      "regulatoryReferences": [
+        "Reglamento (CE) 1223/2009 — Anexo III, entrada 383"
+      ],
+      "regulatoryRuleId": "hc-yellow-no-16",
+      "checkedAt": "2026-10-04"
+    },
+    "hydroxypropyl-p-phenylenediamine": {
+      "id": "hydroxypropyl-p-phenylenediamine",
+      "inci": "Hydroxypropyl-p-phenylenediamine",
+      "kind": "Colorante / tinte capilar",
+      "status": "Sujeto a condiciones regulatorias",
+      "note": "Está regulado para tintes oxidativos y tiene un máximo específico tras la mezcla oxidativa.",
+      "evidence": "strong",
+      "evidenceText": "La condición procede de una norma vinculante basada en una evaluación del SCCS.",
+      "tone": "amber",
+      "sources": [
+        "eu-reg-2026-909",
+        "ec-sccs"
+      ],
+      "regulatoryReferences": [
+        "Reglamento (CE) 1223/2009 — Anexo III, entrada 382"
+      ],
+      "regulatoryRuleId": "hydroxypropyl-p-phenylenediamine",
+      "checkedAt": "2026-10-04"
+    },
+    "hydroxypropyl-p-phenylenediamine 2hcl": {
+      "id": "hydroxypropyl-p-phenylenediamine",
+      "inci": "Hydroxypropyl-p-phenylenediamine 2HCl",
+      "kind": "Colorante / tinte capilar",
+      "status": "Sujeto a condiciones regulatorias",
+      "note": "Está regulado para tintes oxidativos y tiene un máximo específico tras la mezcla oxidativa.",
+      "evidence": "strong",
+      "evidenceText": "La condición procede de una norma vinculante basada en una evaluación del SCCS.",
+      "tone": "amber",
+      "sources": [
+        "eu-reg-2026-909",
+        "ec-sccs"
+      ],
+      "regulatoryReferences": [
+        "Reglamento (CE) 1223/2009 — Anexo III, entrada 382"
+      ],
+      "regulatoryRuleId": "hydroxypropyl-p-phenylenediamine",
+      "checkedAt": "2026-10-04"
+    },
+    "diethylamino hydroxybenzoyl hexyl benzoate": {
+      "id": "dihydroxybenzoyl-hexyl-benzoate",
+      "inci": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "kind": "Filtro UV",
+      "status": "Sujeto a condiciones regulatorias",
+      "note": "El Reglamento establece un máximo del 10 % y una condición sobre una impureza inevitable. La comprobación requiere concentración y formulación.",
+      "evidence": "strong",
+      "evidenceText": "La condición procede de una norma vinculante y de una opinión científica del SCCS.",
+      "tone": "amber",
+      "sources": [
+        "eu-reg-2026-909",
+        "ec-sccs"
+      ],
+      "regulatoryReferences": [
+        "Reglamento (CE) 1223/2009 — Anexo VI, entrada 28"
+      ],
+      "regulatoryRuleId": "dihydroxybenzoyl-hexyl-benzoate",
+      "checkedAt": "2026-10-04"
+    },
+    "silver": {
+      "id": "silver-powder",
+      "inci": "Silver",
+      "kind": "Colorante / sustancia con condiciones específicas",
+      "status": "Sujeto a condiciones regulatorias",
+      "note": "La situación depende de la forma y tamaño de partícula. No es correcto tratar cualquier “Silver” como equivalente a polvo de plata regulado.",
+      "evidence": "strong",
+      "evidenceText": "La restricción procede de la normativa UE; la identificación de la forma física es imprescindible.",
+      "tone": "amber",
+      "sources": [
+        "eu-reg-2026-78",
+        "eu-reg-2026-78-corrigendum"
+      ],
+      "regulatoryReferences": [
+        "Reglamento (UE) 2026/78 — Anexo III, entrada 379; Anexo IV, entrada 142"
+      ],
+      "regulatoryRuleId": "silver-powder",
+      "checkedAt": "2026-10-04"
+    },
+    "hexyl salicylate": {
+      "id": "hexyl-salicylate",
+      "inci": "Hexyl Salicylate",
+      "kind": "Componente de fragancia",
+      "status": "Sujeto a condiciones regulatorias UE",
+      "note": "Tiene límites específicos según la categoría del producto y restricciones adicionales para determinados productos infantiles.",
+      "evidence": "strong",
+      "evidenceText": "La condición procede de una norma vinculante y de la evaluación científica citada en ella.",
+      "tone": "amber",
+      "sources": [
+        "eu-reg-2026-78",
+        "eu-reg-2026-78-corrigendum",
+        "ec-sccs"
+      ],
+      "regulatoryReferences": [
+        "Reglamento (UE) 2026/78 — Anexo III, entrada 380"
+      ],
+      "regulatoryRuleId": "hexyl-salicylate",
+      "checkedAt": "2026-10-04"
+    },
+    "o-phenylphenol": {
+      "id": "o-phenylphenol",
+      "inci": "o-Phenylphenol",
+      "kind": "Conservante",
+      "status": "Permitido bajo condiciones específicas",
+      "note": "Tiene límites diferentes para productos que se aclaran y no se aclaran y condiciones adicionales de uso.",
+      "evidence": "strong",
+      "evidenceText": "La condición procede de una norma vinculante y de la evaluación científica citada en ella.",
+      "tone": "amber",
+      "sources": [
+        "eu-reg-2026-78",
+        "eu-reg-2026-78-corrigendum",
+        "ec-sccs"
+      ],
+      "regulatoryReferences": [
+        "Reglamento (UE) 2026/78 — Anexo V, entrada 7"
+      ],
+      "regulatoryRuleId": "o-phenylphenol",
+      "checkedAt": "2026-10-04"
+    },
+    "sodium o-phenylphenate": {
+      "id": "o-phenylphenol",
+      "inci": "Sodium o-phenylphenate",
+      "kind": "Conservante",
+      "status": "Permitido bajo condiciones específicas",
+      "note": "Está regulado conjuntamente con o-Phenylphenol y tiene condiciones específicas de concentración y uso.",
+      "evidence": "strong",
+      "evidenceText": "La condición procede de una norma vinculante y de la evaluación científica citada en ella.",
+      "tone": "amber",
+      "sources": [
+        "eu-reg-2026-78",
+        "eu-reg-2026-78-corrigendum",
+        "ec-sccs"
+      ],
+      "regulatoryReferences": [
+        "Reglamento (UE) 2026/78 — Anexo V, entrada 7"
+      ],
+      "regulatoryRuleId": "o-phenylphenol",
+      "checkedAt": "2026-10-04"
+    }
+  },
+  "functions": {
+    "aqua": "Disolvente / vehículo",
+    "water": "Disolvente / vehículo",
+    "glycerin": "Humectante",
+    "glycerine": "Humectante",
+    "propanediol": "Humectante / disolvente",
+    "butylene glycol": "Humectante / disolvente",
+    "propylene glycol": "Humectante / disolvente",
+    "alcohol denat": "Disolvente",
+    "alcohol": "Disolvente",
+    "parfum": "Perfume",
+    "fragrance": "Perfume",
+    "tocopherol": "Antioxidante",
+    "tocopheryl acetate": "Acondicionador / antioxidante",
+    "citric acid": "Regulador de pH",
+    "sodium hydroxide": "Regulador de pH",
+    "carbomer": "Gelificante / estabilizante",
+    "xanthan gum": "Espesante / estabilizante",
+    "phenoxyethanol": "Conservante",
+    "sodium benzoate": "Conservante",
+    "potassium sorbate": "Conservante",
+    "disodium edta": "Quelante",
+    "limonene": "Componente de fragancia",
+    "linalool": "Componente de fragancia",
+    "citronellol": "Componente de fragancia",
+    "geraniol": "Componente de fragancia",
+    "hexyl cinnamal": "Componente de fragancia",
+    "benzyl salicylate": "Componente de fragancia",
+    "hyaluronic acid": "Acondicionador / humectante",
+    "sodium hyaluronate": "Acondicionador / humectante",
+    "niacinamide": "Acondicionador de la piel",
+    "panthenol": "Acondicionador / humectante",
+    "dimethicone": "Acondicionador / agente de protección",
+    "cetearyl alcohol": "Agente de consistencia / emulsionante",
+    "cetyl alcohol": "Agente de consistencia",
+    "stearic acid": "Agente de consistencia / tensioactivo",
+    "glyceryl stearate": "Emulsionante",
+    "lecithin": "Emulsionante / acondicionador",
+    "triphenyl phosphate": "Sustancia regulada",
+    "acetylated vetiveria zizanioides root extract": "Fragancia",
+    "acetylated vetiveria zizanioides root oil": "Fragancia",
+    "hc blue no 18": "Colorante / tinte capilar",
+    "zinc acetate": "Sal de zinc",
+    "zinc chloride": "Sal de zinc",
+    "zinc gluconate": "Sal de zinc",
+    "zinc glutamate": "Sal de zinc",
+    "zinc citrate": "Sal de zinc",
+    "zinc sulphate": "Sal de zinc"
+  },
+  "status": "validated-data-contract-v41-current-source-review",
+  "regulatoryRules": {
+    "citral": {
+      "id": "citral",
+      "inciNames": [
+        "Citral",
+        "Geranial",
+        "Neral"
+      ],
+      "regulation": "Reglamento (UE) 2026/909",
+      "annex": "III",
+      "entry": "70",
+      "effectiveFrom": "2026-05-18",
+      "labelThresholds": {
+        "leaveOn": "0,001 %",
+        "rinseOff": "0,01 %"
+      },
+      "maxConcentrations": {
+        "lipMakeup": "0,11 %",
+        "deodorantsAntiperspirants": "0,032 %",
+        "eyeFaceMakeupRemover": "0,65 %",
+        "fragranceProducts": "0,6 %",
+        "leaveOnSkinAndNails": "0,15 %",
+        "oral": "0,35 %",
+        "hairLeaveOn": "1,2 %",
+        "skinHairRinseOff": "1,2 %",
+        "anogenitalLeaveOnWipes": "0,063 %"
+      },
+      "warning": "La conformidad no puede comprobarse solo con el INCI: hace falta conocer el tipo de producto y la concentración en la preparación lista para usar.",
+      "sources": [
+        "eu-reg-2026-909",
+        "eu-reg-2026-909-corrigendum",
+        "ec-sccs"
+      ],
+      "categoryLimits": {
+        "lipMakeup": {
+          "max": 0.11,
+          "basis": "ingredient"
+        },
+        "deodorant": {
+          "max": 0.032,
+          "basis": "ingredient"
+        },
+        "deodorantSpray": {
+          "max": 0.032,
+          "basis": "ingredient"
+        },
+        "faceMakeupRemover": {
+          "max": 0.65,
+          "basis": "ingredient"
+        },
+        "fragranceProducts": {
+          "max": 0.6,
+          "basis": "ingredient"
+        },
+        "leaveOnSkinAndNails": {
+          "max": 0.15,
+          "basis": "ingredient"
+        },
+        "oral": {
+          "max": 0.35,
+          "basis": "ingredient"
+        },
+        "leaveOnHair": {
+          "max": 1.2,
+          "basis": "ingredient"
+        },
+        "skinHairRinseOff": {
+          "max": 1.2,
+          "basis": "ingredient"
+        },
+        "anogenitalLeaveOnWipes": {
+          "max": 0.063,
+          "basis": "ingredient"
+        }
+      }
+    },
+    "benzyl-salicylate": {
+      "id": "benzyl-salicylate",
+      "inciNames": [
+        "Benzyl Salicylate"
+      ],
+      "regulation": "Reglamento (UE) 2026/909",
+      "annex": "III",
+      "entry": "75",
+      "effectiveFrom": "2026-05-18",
+      "labelThresholds": {
+        "leaveOn": "0,001 %",
+        "rinseOff": "0,01 %"
+      },
+      "maxConcentrations": {
+        "fragranceProducts": "4 %",
+        "rinseOffSkinHairExceptShowerBath": "0,5 %",
+        "showerBath": "1,3 %",
+        "leaveOnSkinHairNonSprayExceptBodyLotion": "0,5 %",
+        "leaveOnHairSprayAerosol": "0,5 %",
+        "bodyLotion": "0,7 %",
+        "faceMakeupRemover": "0,2 %",
+        "oral": "0,004 %",
+        "deodorantSprayAerosol": "0,91 %"
+      },
+      "warning": "La conformidad no puede comprobarse solo con el INCI: hace falta conocer el tipo de producto y la concentración.",
+      "sources": [
+        "eu-reg-2026-909",
+        "ec-sccs"
+      ],
+      "categoryLimits": {
+        "fragranceProducts": {
+          "max": 4,
+          "basis": "ingredient"
+        },
+        "skinHairRinseOff": {
+          "max": 0.5,
+          "basis": "ingredient"
+        },
+        "showerBath": {
+          "max": 1.3,
+          "basis": "ingredient"
+        },
+        "leaveOnSkinAndNails": {
+          "max": 0.5,
+          "basis": "ingredient"
+        },
+        "leaveOnHair": {
+          "max": 0.5,
+          "basis": "ingredient"
+        },
+        "bodyLotion": {
+          "max": 0.7,
+          "basis": "ingredient"
+        },
+        "faceMakeupRemover": {
+          "max": 0.2,
+          "basis": "ingredient"
+        },
+        "oral": {
+          "max": 0.004,
+          "basis": "ingredient"
+        },
+        "deodorantSpray": {
+          "max": 0.91,
+          "basis": "ingredient"
+        }
+      }
+    },
+    "triphenyl-phosphate": {
+      "id": "triphenyl-phosphate",
+      "inciNames": [
+        "Triphenyl Phosphate"
+      ],
+      "regulation": "Reglamento (UE) 2026/909",
+      "annex": "II",
+      "entry": "1767",
+      "effectiveFrom": "2026-05-18",
+      "transition": {
+        "notPlacedOnMarket": "2027-01-01",
+        "notMadeAvailable": "2028-07-01"
+      },
+      "warning": "La sustancia se incorpora al Anexo II como prohibida, con el régimen transitorio indicado en el propio Reglamento. La app no debe declarar ilegal un producto únicamente por aparecer en una ficha histórica: debe comprobarse la fecha y el marco aplicable.",
+      "sources": [
+        "eu-reg-2026-909",
+        "eu-reg-2026-909-corrigendum",
+        "ec-sccs"
+      ]
+    },
+    "acetylated-vetiver-oil": {
+      "id": "acetylated-vetiver-oil",
+      "inciNames": [
+        "Acetylated Vetiveria Zizanioides Root Extract",
+        "Acetylated Vetiveria Zizanioides Root Oil"
+      ],
+      "regulation": "Reglamento (UE) 2026/909",
+      "annex": "III",
+      "entry": "380",
+      "effectiveFrom": "2026-05-18",
+      "maxConcentrations": {
+        "fragranceProducts": "0,9 %",
+        "deodorants": "0,05 %",
+        "makeup": "0,05 %",
+        "otherLeaveOn": "0,1 %",
+        "rinseOff": "0,2 %"
+      },
+      "conditions": "Las materias primas deben estar estabilizadas con 1 % de alfa-tocoferol, según las condiciones del anexo.",
+      "warning": "La categoría exacta del producto y las condiciones de la materia prima son necesarias para valorar conformidad.",
+      "sources": [
+        "eu-reg-2026-909",
+        "ec-sccs"
+      ],
+      "categoryLimits": {
+        "fragranceProducts": {
+          "max": 0.9,
+          "basis": "ingredient"
+        },
+        "deodorant": {
+          "max": 0.05,
+          "basis": "ingredient"
+        },
+        "deodorantSpray": {
+          "max": 0.05,
+          "basis": "ingredient"
+        },
+        "faceMakeupRemover": {
+          "max": 0.05,
+          "basis": "ingredient"
+        },
+        "leaveOnSkinAndNails": {
+          "max": 0.1,
+          "basis": "ingredient"
+        },
+        "skinHairRinseOff": {
+          "max": 0.2,
+          "basis": "ingredient"
+        }
+      }
+    },
+    "hc-blue-no-18": {
+      "id": "hc-blue-no-18",
+      "inciNames": [
+        "HC Blue No 18"
+      ],
+      "regulation": "Reglamento (UE) 2026/909",
+      "annex": "VI",
+      "entry": "",
+      "effectiveFrom": "2026-05-18",
+      "maxConcentrations": {
+        "oxidativeHairDye": "0,35 %",
+        "nonOxidativeHairDye": "0,35 %"
+      },
+      "warning": "Aplicación específica a tintes capilares. La etiqueta INCI por sí sola no permite comprobar la concentración ni el tipo de tinte.",
+      "sources": [
+        "eu-reg-2026-909",
+        "ec-sccs"
+      ],
+      "categoryLimits": {
+        "hairDyeOxidative": {
+          "max": 0.35,
+          "basis": "ingredient"
+        },
+        "hairDyeNonOxidative": {
+          "max": 0.35,
+          "basis": "ingredient"
+        }
+      }
+    },
+    "dihydroxybenzoyl-hexyl-benzoate": {
+      "id": "dihydroxybenzoyl-hexyl-benzoate",
+      "inciNames": [
+        "Diethylamino Hydroxybenzoyl Hexyl Benzoate"
+      ],
+      "regulation": "Reglamento (UE) 2026/909",
+      "annex": "VI",
+      "entry": "",
+      "effectiveFrom": "2026-05-18",
+      "warning": "La situación regulatoria depende de la función y las condiciones del uso. La app debe consultar la entrada vigente antes de emitir una conclusión de cumplimiento.",
+      "sources": [
+        "eu-reg-2026-909",
+        "ec-sccs"
+      ],
+      "categoryLimits": {
+        "other": {
+          "max": 10,
+          "basis": "ingredient"
+        },
+        "faceMakeupRemover": {
+          "max": 10,
+          "basis": "ingredient"
+        },
+        "leaveOnSkinAndNails": {
+          "max": 10,
+          "basis": "ingredient"
+        },
+        "leaveOnHair": {
+          "max": 10,
+          "basis": "ingredient"
+        }
+      },
+      "otherConditions": "La impureza inevitable Di-n-hexyl phthalate (DnHexP) en DHHB no debe exceder de 10 ppm.",
+      "transition": {
+        "notPlacedOnMarket": "2027-01-01",
+        "notMadeAvailable": "2028-07-01"
+      }
+    },
+    "water-soluble-zinc-salts": {
+      "id": "water-soluble-zinc-salts",
+      "inciNames": [
+        "Zinc Acetate",
+        "Zinc Chloride",
+        "Zinc Gluconate",
+        "Zinc Glutamate",
+        "Zinc Citrate",
+        "Zinc Sulphate"
+      ],
+      "regulation": "Reglamento (UE) 2026/909",
+      "annex": "III",
+      "entry": "24",
+      "effectiveFrom": "2026-05-18",
+      "maxConcentrations": {
+        "toothpasteAbove1Year": "1 % as zinc",
+        "toothpaste6MonthsTo1Year": "0,72 % as zinc",
+        "mouthwashAbove6Years": "0,1 % as zinc",
+        "otherProducts": "1 % as zinc"
+      },
+      "warning": "Los límites están expresados como zinc y dependen del tipo de producto y edad indicada en el Reglamento. No se puede comprobar cumplimiento con un INCI sin concentración y contexto.",
+      "sources": [
+        "eu-reg-2026-909",
+        "ec-sccs"
+      ],
+      "categoryLimits": {
+        "toothpaste": {
+          "max": 1,
+          "basis": "element",
+          "requiresAge": true,
+          "allowedAgeGroups": [
+            "above1year",
+            "adult"
+          ]
+        },
+        "mouthwash": {
+          "max": 0.1,
+          "basis": "element",
+          "requiresAge": true,
+          "allowedAgeGroups": [
+            "above6years",
+            "adult"
+          ]
+        },
+        "oral": {
+          "max": 1,
+          "basis": "element"
+        }
+      }
+    },
+    "silver-zinc-zeolite": {
+      "regulation": "Reglamento (UE) 2026/909",
+      "effectiveFrom": "2026-05-18",
+      "sources": [
+        "eu-reg-2026-909"
+      ],
+      "checkedAt": "2026-10-04",
+      "id": "silver-zinc-zeolite",
+      "annex": "V",
+      "entry": "61",
+      "inciNames": [
+        "Ammonium Silver Zinc Aluminium Silicate"
+      ],
+      "categoryLimits": {
+        "deodorantSpray": {
+          "max": 1,
+          "basis": "ingredient"
+        },
+        "makeupPowder": {
+          "max": 1,
+          "basis": "ingredient"
+        }
+      },
+      "otherConditions": "El contenido de plata en Ammonium Silver Zinc Aluminium Silicate no debe exceder del 2,5 %.",
+      "warning": "Se permite bajo las condiciones de la entrada 61 del Anexo V. No debe tratarse como una prohibición absoluta por su antigua presencia en el Anexo II."
+    },
+    "aluminium-containing-ingredients": {
+      "regulation": "Reglamento (UE) 2026/909",
+      "effectiveFrom": "2026-05-18",
+      "sources": [
+        "eu-reg-2026-909"
+      ],
+      "checkedAt": "2026-10-04",
+      "id": "aluminium-containing-ingredients",
+      "annex": "III",
+      "entry": "379",
+      "inciNames": [
+        "Aluminium",
+        "Aluminum"
+      ],
+      "requiresExactSubstanceIdentity": true,
+      "categoryLimits": {
+        "deodorant": {
+          "max": 7.73,
+          "basis": "element"
+        },
+        "deodorantSpray": {
+          "max": 3.24,
+          "basis": "element"
+        },
+        "toothpaste": {
+          "max": 3.18,
+          "basis": "element"
+        },
+        "lipMakeup": {
+          "max": 14.62,
+          "basis": "element"
+        },
+        "skinHairRinseOff": {
+          "max": 0.89,
+          "basis": "element"
+        },
+        "barSoap": {
+          "max": 4,
+          "basis": "element"
+        },
+        "hairLeaveOnInhalation": {
+          "max": 0.15,
+          "basis": "element"
+        },
+        "hairLeaveOnOther": {
+          "max": 6.7,
+          "basis": "element"
+        }
+      },
+      "transition": {
+        "notPlacedOnMarket": "2027-01-01",
+        "notMadeAvailable": "2028-07-01"
+      },
+      "warning": "La entrada se refiere a ingredientes que contienen aluminio, con excepciones expresas. La comprobación exige identificar exactamente la sustancia y, para estos límites, trabajar sobre aluminio elemental; DESINZI no hará esa conversión automáticamente."
+    },
+    "hc-red-no-18": {
+      "regulation": "Reglamento (UE) 2026/909",
+      "effectiveFrom": "2026-05-18",
+      "sources": [
+        "eu-reg-2026-909"
+      ],
+      "checkedAt": "2026-10-04",
+      "id": "hc-red-no-18",
+      "annex": "III",
+      "entry": "381",
+      "inciNames": [
+        "HC Red No 18"
+      ],
+      "categoryLimits": {
+        "hairDyeOxidative": {
+          "max": 1.5,
+          "basis": "ingredient"
+        },
+        "hairDyeNonOxidative": {
+          "max": 0.5,
+          "basis": "ingredient"
+        }
+      },
+      "transition": {
+        "notPlacedOnMarket": "2027-01-01",
+        "notMadeAvailable": "2028-07-01"
+      },
+      "warning": "Límite máximo según el tipo de tinte capilar. La concentración debe corresponder al producto preparado para su uso según la condición normativa."
+    },
+    "hc-yellow-no-16": {
+      "regulation": "Reglamento (UE) 2026/909",
+      "effectiveFrom": "2026-05-18",
+      "sources": [
+        "eu-reg-2026-909"
+      ],
+      "checkedAt": "2026-10-04",
+      "id": "hc-yellow-no-16",
+      "annex": "III",
+      "entry": "383",
+      "inciNames": [
+        "HC Yellow No 16"
+      ],
+      "categoryLimits": {
+        "hairDyeOxidative": {
+          "max": 1,
+          "basis": "ingredient"
+        },
+        "hairDyeNonOxidative": {
+          "max": 1.5,
+          "basis": "ingredient"
+        }
+      },
+      "transition": {
+        "notPlacedOnMarket": "2027-01-01",
+        "notMadeAvailable": "2028-08-01"
+      },
+      "warning": "Límite máximo según el tipo de tinte capilar. La concentración debe corresponder al producto preparado para su uso según la condición normativa."
+    },
+    "hydroxypropyl-p-phenylenediamine": {
+      "regulation": "Reglamento (UE) 2026/909",
+      "effectiveFrom": "2026-05-18",
+      "sources": [
+        "eu-reg-2026-909"
+      ],
+      "checkedAt": "2026-10-04",
+      "id": "hydroxypropyl-p-phenylenediamine",
+      "annex": "III",
+      "entry": "382",
+      "inciNames": [
+        "Hydroxypropyl-p-phenylenediamine",
+        "Hydroxypropyl-p-phenylenediamine 2HCl"
+      ],
+      "categoryLimits": {
+        "hairDyeOxidative": {
+          "max": 2,
+          "basis": "ingredient"
+        }
+      },
+      "transition": {
+        "notPlacedOnMarket": "2027-01-01",
+        "notMadeAvailable": "2028-07-01"
+      },
+      "warning": "La norma establece un máximo del 2 % para el uso en tintes oxidativos, con condiciones específicas de aplicación y etiquetado. DESINZI no sustituye las advertencias obligatorias del envase."
+    },
+    "silver-powder": {
+      "regulation": "Reglamento (UE) 2026/78",
+      "effectiveFrom": "2026-05-01",
+      "sources": [
+        "eu-reg-2026-78",
+        "eu-reg-2026-78-corrigendum"
+      ],
+      "checkedAt": "2026-10-04",
+      "id": "silver-powder",
+      "annex": "III/IV",
+      "entry": "379 / 142",
+      "inciNames": [
+        "Silver"
+      ],
+      "requiresExactSubstanceIdentity": true,
+      "categoryLimits": {
+        "toothpaste": {
+          "max": 0.05,
+          "basis": "ingredient"
+        },
+        "mouthwash": {
+          "max": 0.05,
+          "basis": "ingredient"
+        },
+        "lipMakeup": {
+          "max": 0.2,
+          "basis": "ingredient"
+        },
+        "faceMakeupRemover": {
+          "max": 0.2,
+          "basis": "ingredient"
+        },
+        "eyeMakeup": {
+          "max": 0.2,
+          "basis": "ingredient"
+        }
+      },
+      "warning": "La regla depende de la forma/tamaño de partícula y de la función. No debe aplicarse a cualquier ingrediente llamado “Silver” sin identificar la sustancia y su tamaño de partícula."
+    },
+    "hexyl-salicylate": {
+      "regulation": "Reglamento (UE) 2026/78",
+      "effectiveFrom": "2026-05-01",
+      "sources": [
+        "eu-reg-2026-78",
+        "eu-reg-2026-78-corrigendum"
+      ],
+      "checkedAt": "2026-10-04",
+      "id": "hexyl-salicylate",
+      "annex": "III",
+      "entry": "380",
+      "inciNames": [
+        "Hexyl Salicylate"
+      ],
+      "categoryLimits": {
+        "fragranceProducts": {
+          "max": 2,
+          "basis": "ingredient"
+        },
+        "skinHairRinseOff": {
+          "max": 0.5,
+          "basis": "ingredient"
+        },
+        "leaveOnSkinAndNails": {
+          "max": 0.3,
+          "basis": "ingredient"
+        },
+        "toothpaste": {
+          "max": 0.001,
+          "basis": "ingredient"
+        },
+        "mouthwash": {
+          "max": 0.001,
+          "basis": "ingredient"
+        },
+        "showerBath": {
+          "max": 0.1,
+          "basis": "ingredient"
+        },
+        "bodyLotion": {
+          "max": 0.1,
+          "basis": "ingredient"
+        }
+      },
+      "warning": "Existen exclusiones y condiciones específicas por categoría, incluidas restricciones para determinados productos infantiles. La comprobación automática es deliberadamente conservadora cuando el contexto no permite identificar la subcategoría exacta.",
+      "childAgeReview": true
+    },
+    "o-phenylphenol": {
+      "regulation": "Reglamento (UE) 2026/78",
+      "effectiveFrom": "2026-05-01",
+      "sources": [
+        "eu-reg-2026-78",
+        "eu-reg-2026-78-corrigendum"
+      ],
+      "checkedAt": "2026-10-04",
+      "id": "o-phenylphenol",
+      "annex": "V",
+      "entry": "7",
+      "inciNames": [
+        "o-Phenylphenol",
+        "Sodium o-phenylphenate"
+      ],
+      "categoryLimits": {
+        "skinHairRinseOff": {
+          "max": 0.2,
+          "basis": "ingredient"
+        },
+        "leaveOnSkinAndNails": {
+          "max": 0.15,
+          "basis": "ingredient"
+        }
+      },
+      "warning": "No utilizar en aplicaciones que puedan exponer los pulmones por inhalación ni en productos bucales. Cuando se usan conjuntamente o-Phenylphenol y Sodium o-phenylphenate, la concentración combinada tiene límites específicos expresados como fenol."
+    }
+  },
+  "contextModelVersion": 1,
+  "ocrCorrectionPolicy": {
+    "enabled": true,
+    "minTokenLength": 7,
+    "maxEditDistance": 1,
+    "minScore": 0.87,
+    "minMargin": 0.05,
+    "sensitiveMinScore": 0.98,
+    "sensitiveMinMargin": 0.08,
+    "neverAutoCorrectNano": true,
+    "neverAutoCorrectWhenAmbiguous": true,
+    "onlyUseVerifiedCanonicalOrAliases": true,
+    "principle": "Una corrección automática solo se activa cuando existe una coincidencia única y verificada; si hay ambigüedad, se conserva el texto original."
+  },
+  "scientificMonitoring": {
+    "purpose": "Seguimiento científico: no equivale a una prohibición, restricción ni autorización legal.",
+    "checkedAt": "2026-10-04",
+    "records": [
+      {
+        "id": "sccs-silver-2026",
+        "substance": "Silver",
+        "type": "final-opinion",
+        "date": "2026-03-26",
+        "corrigendumDate": "2026-05-20",
+        "source": "ec-sccs",
+        "status": "opinion-final",
+        "appRule": "No convertir esta opinión en una regla legal automática; identificar sustancia, tamaño de partícula, categoría y condiciones."
+      },
+      {
+        "id": "sccs-cbd-2026",
+        "substance": "Cannabidiol (CBD)",
+        "type": "final-opinion",
+        "date": "2026-03-26",
+        "source": "ec-sccs",
+        "status": "opinion-final",
+        "appRule": "Mostrar como contexto científico. No inferir legalidad únicamente desde la opinión."
+      },
+      {
+        "id": "sccs-bha-2026",
+        "substance": "Butylated Hydroxyanisole (BHA)",
+        "type": "final-opinion",
+        "date": "2026-03-26",
+        "source": "ec-sccs",
+        "status": "opinion-final",
+        "appRule": "Mostrar como contexto científico separado de la situación regulatoria."
+      },
+      {
+        "id": "sccs-heliotropin-2026",
+        "substance": "Heliotropin",
+        "type": "opinion-being-finalised",
+        "date": "2026-03-26",
+        "source": "sccs-opinions-2026",
+        "status": "being-finalised",
+        "appRule": "No tratar como opinión final ni como prohibición."
+      },
+      {
+        "id": "sccs-acetophenone-2026",
+        "substance": "Acetophenone",
+        "type": "opinion-being-finalised",
+        "date": "2026-04-30",
+        "source": "sccs-opinions-2026",
+        "status": "being-finalised",
+        "appRule": "No tratar como opinión final ni como prohibición."
+      },
+      {
+        "id": "sccs-hydroxycitronellal-2026",
+        "substance": "Hydroxycitronellal",
+        "type": "mandate",
+        "date": "2026-04-30",
+        "source": "sccs-mandates-2026",
+        "status": "mandate",
+        "appRule": "Un mandato no es una conclusión de seguridad."
+      },
+      {
+        "id": "sccs-cuminaldehyde-2026",
+        "substance": "Cuminaldehyde",
+        "type": "mandate",
+        "date": "2026-07-29",
+        "source": "sccs-mandates-2026",
+        "status": "mandate",
+        "appRule": "Un mandato no es una conclusión de seguridad."
+      },
+      {
+        "id": "sccs-p-cymene-2026",
+        "substance": "p-Cymene",
+        "type": "mandate",
+        "date": "2026-07-29",
+        "source": "sccs-mandates-2026",
+        "status": "mandate",
+        "appRule": "Un mandato no es una conclusión de seguridad."
+      },
+      {
+        "id": "sccs-cyclamen-aldehyde-2026",
+        "substance": "Cyclamen Aldehyde",
+        "type": "mandate",
+        "date": "2026-06-08",
+        "source": "sccs-mandates-2026",
+        "status": "mandate",
+        "appRule": "Un mandato no es una conclusión de seguridad ni modifica por sí solo la situación legal."
+      },
+      {
+        "id": "sccs-phytonadione-epoxide-2026",
+        "substance": "Phytonadione Epoxide (Vitamin K1 oxide)",
+        "type": "mandate",
+        "date": "2026-06-25",
+        "source": "sccs-mandates-2026",
+        "status": "mandate",
+        "appRule": "Un mandato no es una conclusión de seguridad ni modifica por sí solo la situación legal."
+      },
+      {
+        "id": "sccs-glyoxylic-acid-2026",
+        "substance": "Glyoxylic Acid",
+        "type": "mandate",
+        "date": "2026-04-30",
+        "source": "sccs-mandates-2026",
+        "status": "mandate",
+        "appRule": "Un mandato no es una conclusión de seguridad ni modifica por sí solo la situación legal."
+      },
+      {
+        "id": "sccs-salicylic-acid-aggregate-2026",
+        "substance": "Aggregate exposure to Salicylic Acid from salicylic esters",
+        "type": "mandate",
+        "date": "2026-01-12",
+        "source": "sccs-mandates-2026",
+        "status": "mandate",
+        "appRule": "El mandato aborda exposición agregada; no debe convertirse en una regla legal automática para un ingrediente aislado."
+      },
+      {
+        "id": "sccs-thiomersal-2026",
+        "substance": "Thiomersal and Phenylmercuric salts",
+        "type": "final-opinion",
+        "date": "2026-02-02",
+        "source": "sccs-thiomersal-2026",
+        "status": "opinion-final",
+        "appRule": "Mostrar la conclusión científica con su alcance; no sustituir la comprobación del texto legal aplicable."
+      },
+      {
+        "id": "sccs-basic-brown-16-2026",
+        "substance": "Basic Brown 16",
+        "type": "final-opinion",
+        "date": "2026-02-02",
+        "source": "sccs-basic-brown-16-2026",
+        "status": "opinion-final",
+        "appRule": "Mostrar como conclusión científica; no convertir automáticamente la opinión en una prohibición sin verificar la normativa vigente."
+      }
+    ]
+  },
+  "regulatoryMonitoring": {
+    "purpose": "Registrar cambios normativos en tramitación sin presentarlos como derecho vigente.",
+    "checkedAt": "2026-10-04",
+    "records": [
+      {
+        "id": "eu-silver-draft-2026",
+        "subject": "Silver en productos cosméticos",
+        "stage": "draft-notification",
+        "date": "2026-07-30",
+        "source": "eu-tbt-silver-2026",
+        "legalStatus": "not-in-force",
+        "appRule": "No mostrar como modificación vigente. Solo informar como propuesta/tramitación hasta publicación y entrada en vigor."
+      }
+    ]
+  }
+}

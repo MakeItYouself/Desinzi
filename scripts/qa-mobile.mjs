@@ -1,0 +1,45 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import { fileURLToPath } from 'node:url';
+
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const cap = JSON.parse(fs.readFileSync(path.join(root,'capacitor.config.json'),'utf8'));
+assert.equal(cap.appId, 'com.desinzi.zerohumo');
+assert.equal(cap.appName, 'DESINZI · ZERO HUMO');
+assert.equal(cap.webDir, 'www');
+assert.equal(cap.backgroundColor, '#0d0d0f');
+assert.equal(cap.server.androidScheme, 'https');
+const pkg = JSON.parse(fs.readFileSync(path.join(root,'package.json'),'utf8'));
+assert.equal(pkg.version, '0.55.0');
+const app = fs.readFileSync(path.join(root,'app.js'),'utf8');
+assert.match(app, /navigator\.mediaDevices\?\.getUserMedia/);
+assert.match(app, /BarcodeDetector/);
+const html = fs.readFileSync(path.join(root,'index.html'),'utf8');
+assert.match(html, /accept="image\/\*"[^>]*capture="environment"/i);
+assert.match(app, /Tesseract\.createWorker/);
+assert.match(app, /world\.openbeautyfacts\.org\/api\/v3/);
+assert.match(app, /window\.DESINZI_NATIVE/);
+assert.match(app, /requestCameraPermission/);
+assert.match(app, /scanWithNativeAdapter/);
+assert.match(app, /document\.addEventListener\('visibilitychange'/);
+assert.match(app, /window\.addEventListener\('pagehide'/);
+assert.match(app, /localOCRAssetsAvailable/);
+assert.match(app, /assets\/vendor\/tesseract\/tesseract\.min\.js/);
+assert.match(app, /cdn\.jsdelivr\.net\/npm\/tesseract\.js@6\.0\.1/);
+assert.match(app, /12\*1024\*1024/);
+assert.ok(app.includes('image\\/(jpeg|png|webp|heic|heif)'), 'image type validation missing');
+const hardeningDoc = fs.readFileSync(path.join(root,'docs','MOBILE-HARDENING-V55.md'),'utf8');
+for (const token of ['window.DESINZI_NATIVE','BarcodeDetector','OCR offline completo','Compilación Android','Compilación iOS']) assert.ok(hardeningDoc.includes(token), `hardening doc missing ${token}`);
+const html2 = fs.readFileSync(path.join(root,'index.html'),'utf8');
+assert.match(html2, /id="scannerCapability"/);
+assert.match(html2, /La imagen no se sube por OCR en este prototipo/);
+assert.doesNotMatch(app, /fetchJSON\(['"]\/api\//);
+const mobileDoc = fs.readFileSync(path.join(root,'docs','MOBILE-PACKAGING-V55.md'),'utf8');
+for (const token of ['com.desinzi.zerohumo','Capacitor','Android','iOS','backend HTTPS','firma']) assert.ok(mobileDoc.includes(token), `mobile doc missing ${token}`);
+if (fs.existsSync(path.join(root,'www'))) {
+  const required=['index.html','app.js','styles.css','manifest.webmanifest','sw.js','assets/logo.png','assets/logo.svg','data/knowledge.json'];
+  for (const rel of required) assert.ok(fs.existsSync(path.join(root,'www',rel)), `mobile bundle missing ${rel}`);
+  assert.ok(!fs.existsSync(path.join(root,'www','backend')), 'backend must never be copied into mobile web bundle');
+}
+console.log('MOBILE QA OK: native packaging configuration, app identity, web bundle contract, camera/OCR/barcode fallbacks and backend separation');

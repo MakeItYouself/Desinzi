@@ -1,0 +1,153 @@
+[
+  {
+    "id": "eurlex-cosmetics",
+    "name": "Reglamento (CE) 1223/2009",
+    "type": "legal",
+    "authority": "EUR-Lex",
+    "url": "https://eur-lex.europa.eu/eli/reg/2009/1223/oj",
+    "lastChecked": "2026-10-04",
+    "currentConsolidated": "2026-05-18",
+    "licenseNote": "Texto oficial disponible en EUR-Lex; la versión consolidada es instrumento de documentación y deben prevalecer las versiones auténticas del Diario Oficial."
+  },
+  {
+    "id": "ec-cosmetics-legislation",
+    "name": "Legislación de cosméticos de la Comisión Europea",
+    "type": "legal",
+    "authority": "European Commission",
+    "url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/legislation_en",
+    "lastChecked": "2026-10-04"
+  },
+  {
+    "id": "eu-reg-2026-909",
+    "name": "Reglamento (UE) 2026/909 y correcciones de errores",
+    "type": "legal",
+    "authority": "EUR-Lex",
+    "url": "https://eur-lex.europa.eu/eli/reg/2026/909/oj/",
+    "lastChecked": "2026-10-04",
+    "licenseNote": "Texto oficial en EUR-Lex; debe conservarse la referencia al Diario Oficial y a las correcciones de errores."
+  },
+  {
+    "id": "ec-cosing",
+    "name": "CosIng — Cosmetic ingredient database",
+    "type": "informational",
+    "authority": "European Commission",
+    "url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/cosmetic-ingredient-database_en",
+    "lastChecked": "2026-10-04"
+  },
+  {
+    "id": "ec-sccs",
+    "name": "Scientific Committee on Consumer Safety (SCCS)",
+    "type": "scientific",
+    "authority": "European Commission",
+    "url": "https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs_en",
+    "lastChecked": "2026-10-04"
+  },
+  {
+    "id": "eu-claims",
+    "name": "Criterios comunes para reivindicaciones cosméticas",
+    "type": "legal-context",
+    "authority": "EUR-Lex",
+    "url": "https://eur-lex.europa.eu/eli/reg/2013/655/oj",
+    "lastChecked": "2026-10-04"
+  },
+  {
+    "id": "aepd-design",
+    "name": "Protección de datos desde el diseño",
+    "type": "privacy",
+    "authority": "AEPD",
+    "url": "https://www.aepd.es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/proteccion-de-datos-desde-el-diseno",
+    "lastChecked": "2026-10-04"
+  },
+  {
+    "id": "eu-reg-2026-909-corrigendum",
+    "name": "Corrección de errores del Reglamento (UE) 2026/909",
+    "type": "legal-corrigendum",
+    "authority": "EUR-Lex",
+    "url": "https://eur-lex.europa.eu/eli/reg/2026/909/corrigendum/2026-05-08/oj",
+    "lastChecked": "2026-10-04",
+    "licenseNote": "Corrección oficial publicada en el Diario Oficial de la UE."
+  },
+  {
+    "id": "eu-reg-2026-78",
+    "name": "Reglamento (UE) 2026/78",
+    "type": "legal",
+    "authority": "EUR-Lex",
+    "url": "https://eur-lex.europa.eu/eli/reg/2026/78/oj",
+    "lastChecked": "2026-10-04",
+    "licenseNote": "Acto oficial de la UE; aplicable desde 1 de mayo de 2026."
+  },
+  {
+    "id": "eu-reg-2026-78-corrigendum",
+    "name": "Corrección de errores del Reglamento (UE) 2026/78",
+    "type": "legal-corrigendum",
+    "authority": "EUR-Lex",
+    "url": "https://eur-lex.europa.eu/eli/reg/2026/78/corrigendum/2026-07-23/oj",
+    "lastChecked": "2026-10-04",
+    "licenseNote": "Corrección oficial publicada el 23 de julio de 2026."
+  },
+  {
+    "id": "eurlex-current-consolidated-2026-05-18",
+    "name": "Texto refundido vigente del Reglamento (CE) 1223/2009 (acceso actual 18/05/2026)",
+    "type": "legal-current",
+    "authority": "EUR-Lex",
+    "url": "https://eur-lex.europa.eu/eli/reg/2009/1223/oj",
+    "lastChecked": "2026-10-04",
+    "currentConsolidated": "2026-05-18"
+  },
+  {
+    "id": "sccs-opinions-2026",
+    "name": "SCCS — opiniones y asesoramiento científico",
+    "type": "scientific-current",
+    "authority": "European Commission",
+    "url": "https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs/sccs-opinions_en",
+    "lastChecked": "2026-10-04"
+  },
+  {
+    "id": "sccs-mandates-2026",
+    "name": "SCCS — mandatos científicos",
+    "type": "scientific-monitoring",
+    "authority": "European Commission",
+    "url": "https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs/sccs-mandates_en",
+    "lastChecked": "2026-10-04"
+  },
+  {
+    "id": "sccs-thiomersal-2026",
+    "name": "SCCS — Thiomersal y sales fenilmercúricas",
+    "type": "scientific",
+    "authority": "Comisión Europea / SCCS",
+    "url": "https://health.ec.europa.eu/publications/sccs-scientific-advice-safety-thiomersal-cas-no-54-64-8-ec-no-200-210-4-and-phenylmercuric-salts_en"
+  },
+  {
+    "id": "sccs-basic-brown-16-2026",
+    "name": "SCCS — Basic Brown 16",
+    "type": "scientific",
+    "authority": "Comisión Europea / SCCS",
+    "url": "https://health.ec.europa.eu/publications/sccs-scientific-advice-hair-dye-basic-brown-16-c009-cas-no-26381-41-9-ec-no-247-640-9-submission-v_en"
+  },
+  {
+    "id": "eu-tbt-silver-2026",
+    "name": "UE — Notificación TBT sobre propuesta para Silver",
+    "type": "regulatory-monitoring",
+    "authority": "Comisión Europea",
+    "url": "https://technical-barriers-trade.ec.europa.eu/de/notification/40131"
+  },
+  {
+    "id": "open-beauty-facts",
+    "name": "Open Beauty Facts — datos de productos cosméticos",
+    "type": "product-data",
+    "authority": "Open Beauty Facts / Open Food Facts",
+    "url": "https://world.openbeautyfacts.org",
+    "lastChecked": "2026-10-04",
+    "licenseNote": "Los datos y las imágenes tienen condiciones de reutilización y licencias específicas. La app no trata esta fuente como autoridad regulatoria ni certificación de seguridad."
+  },
+  {
+    "id": "aemps-cosmetics-legislation",
+    "name": "AEMPS — Legislación sobre productos cosméticos",
+    "authority": "AEMPS",
+    "type": "official-context",
+    "url": "https://www.aemps.gob.es/cosmeticos/legislacion-sobre-productos-cosmeticos/",
+    "checkedAt": "2026-10-04",
+    "role": "official-context",
+    "licenseNote": "Fuente oficial española de carácter informativo; para efectos jurídicos prevalecen los textos oficiales del BOE y del Diario Oficial de la Unión Europea."
+  }
+]

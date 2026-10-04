@@ -1,0 +1,40 @@
+name: DESINZI QA
+
+on:
+  push:
+    branches: ["main", "master"]
+  pull_request:
+    branches: ["main", "master"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Syntax checks
+        run: |
+          node --check app.js
+          node --check backend/server.mjs
+          node --check backend/qa.mjs
+
+      - name: Release QA
+        run: npm test
+
+      - name: Mobile QA
+        run: npm run mobile:qa

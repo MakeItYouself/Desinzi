@@ -1,0 +1,176 @@
+{
+  "version": "2026.10.04-016",
+  "generatedAt": "2026-10-04T20:55:00+02:00",
+  "payloadUrl": "/v1/knowledge/payload.json",
+  "sha256": "2c9c1234cea9e0f50ffe23ec81400ab64da094c67fcaa8b511ebab27d8c2e945",
+  "schemaVersion": 4,
+  "sources": [
+    {
+      "id": "eurlex-cosmetics",
+      "name": "Reglamento (CE) 1223/2009",
+      "authority": "EUR-Lex",
+      "type": "legal",
+      "url": "https://eur-lex.europa.eu/eli/reg/2009/1223/oj",
+      "checkedAt": "2026-10-04",
+      "role": "binding"
+    },
+    {
+      "id": "ec-cosmetics-legislation",
+      "name": "Legislación de cosméticos de la Comisión Europea",
+      "authority": "European Commission",
+      "type": "legal",
+      "url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/legislation_en",
+      "checkedAt": "2026-10-04",
+      "role": "official-context"
+    },
+    {
+      "id": "eu-reg-2026-909",
+      "name": "Reglamento (UE) 2026/909 y correcciones de errores",
+      "authority": "EUR-Lex",
+      "type": "legal",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/909/oj/",
+      "checkedAt": "2026-10-04",
+      "role": "binding-amendment"
+    },
+    {
+      "id": "ec-cosing",
+      "name": "CosIng — Cosmetic ingredient database",
+      "authority": "European Commission",
+      "type": "informational",
+      "url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/cosmetic-ingredient-database_en",
+      "checkedAt": "2026-10-04",
+      "role": "informational-not-binding"
+    },
+    {
+      "id": "ec-sccs",
+      "name": "Scientific Committee on Consumer Safety (SCCS)",
+      "authority": "European Commission",
+      "type": "scientific",
+      "url": "https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs_en",
+      "checkedAt": "2026-10-04",
+      "role": "scientific-opinions"
+    },
+    {
+      "id": "eu-claims",
+      "name": "Criterios comunes para reivindicaciones cosméticas",
+      "authority": "EUR-Lex",
+      "type": "legal-context",
+      "url": "https://eur-lex.europa.eu/eli/reg/2013/655/oj",
+      "checkedAt": "2026-10-04",
+      "role": "legal-context"
+    },
+    {
+      "id": "aepd-design",
+      "name": "Protección de datos desde el diseño",
+      "authority": "AEPD",
+      "type": "privacy",
+      "url": "https://www.aepd.es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/proteccion-de-datos-desde-el-diseno",
+      "checkedAt": "2026-10-04",
+      "role": "privacy-guidance"
+    },
+    {
+      "id": "eu-reg-2026-909-corrigendum",
+      "name": "Corrección de errores del Reglamento (UE) 2026/909",
+      "authority": "EUR-Lex",
+      "type": "legal-corrigendum",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/909/corrigendum/2026-05-08/oj",
+      "checkedAt": "2026-10-04",
+      "role": "binding-corrigendum"
+    },
+    {
+      "id": "eu-reg-2026-78",
+      "name": "Reglamento (UE) 2026/78",
+      "authority": "EUR-Lex",
+      "type": "legal",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/78/oj",
+      "checkedAt": "2026-10-04",
+      "role": "binding-amendment"
+    },
+    {
+      "id": "eu-reg-2026-78-corrigendum",
+      "name": "Corrección de errores del Reglamento (UE) 2026/78",
+      "authority": "EUR-Lex",
+      "type": "legal-corrigendum",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/78/corrigendum/2026-07-23/oj",
+      "checkedAt": "2026-10-04",
+      "role": "binding-corrigendum"
+    },
+    {
+      "id": "eurlex-current-consolidated-2026-05-18",
+      "name": "Texto refundido vigente del Reglamento (CE) 1223/2009 (acceso actual 18/05/2026)",
+      "type": "legal-current",
+      "authority": "EUR-Lex",
+      "url": "https://eur-lex.europa.eu/eli/reg/2009/1223/oj",
+      "lastChecked": "2026-10-04",
+      "currentConsolidated": "2026-05-18",
+      "role": "binding-context"
+    },
+    {
+      "id": "sccs-opinions-2026",
+      "name": "SCCS — opiniones y asesoramiento científico",
+      "type": "scientific-current",
+      "authority": "European Commission",
+      "url": "https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs/sccs-opinions_en",
+      "lastChecked": "2026-10-04",
+      "role": "scientific-context"
+    },
+    {
+      "id": "sccs-mandates-2026",
+      "name": "SCCS — mandatos científicos",
+      "type": "scientific-monitoring",
+      "authority": "European Commission",
+      "url": "https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs/sccs-mandates_en",
+      "lastChecked": "2026-10-04",
+      "role": "monitoring-not-opinion"
+    },
+    {
+      "id": "sccs-thiomersal-2026",
+      "name": "SCCS — Thiomersal y sales fenilmercúricas",
+      "authority": "Comisión Europea / SCCS",
+      "type": "scientific",
+      "url": "https://health.ec.europa.eu/publications/sccs-scientific-advice-safety-thiomersal-cas-no-54-64-8-ec-no-200-210-4-and-phenylmercuric-salts_en",
+      "role": "scientific-opinion"
+    },
+    {
+      "id": "sccs-basic-brown-16-2026",
+      "name": "SCCS — Basic Brown 16",
+      "authority": "Comisión Europea / SCCS",
+      "type": "scientific",
+      "url": "https://health.ec.europa.eu/publications/sccs-scientific-advice-hair-dye-basic-brown-16-c009-cas-no-26381-41-9-ec-no-247-640-9-submission-v_en",
+      "role": "scientific-opinion"
+    },
+    {
+      "id": "eu-tbt-silver-2026",
+      "name": "UE — Notificación TBT sobre propuesta para Silver",
+      "authority": "Comisión Europea",
+      "type": "regulatory-monitoring",
+      "url": "https://technical-barriers-trade.ec.europa.eu/de/notification/40131",
+      "role": "draft-not-in-force"
+    },
+    {
+      "id": "open-beauty-facts",
+      "name": "Open Beauty Facts — datos de productos cosméticos",
+      "authority": "Open Beauty Facts / Open Food Facts",
+      "type": "product-data",
+      "url": "https://world.openbeautyfacts.org",
+      "checkedAt": "2026-10-04",
+      "role": "product-data-not-authority",
+      "licenseNote": "Los datos y las imágenes tienen condiciones de reutilización y licencias específicas. La app no trata esta fuente como autoridad regulatoria ni certificación de seguridad."
+    },
+    {
+      "id": "aemps-cosmetics-legislation",
+      "name": "AEMPS — Legislación sobre productos cosméticos",
+      "authority": "AEMPS",
+      "type": "official-context",
+      "url": "https://www.aemps.gob.es/cosmeticos/legislacion-sobre-productos-cosmeticos/",
+      "checkedAt": "2026-10-04",
+      "role": "official-context",
+      "licenseNote": "Fuente oficial española de carácter informativo; para efectos jurídicos prevalecen los textos oficiales del BOE y del Diario Oficial de la Unión Europea."
+    }
+  ],
+  "minAppVersion": "0.55.0",
+  "signatureAlgorithm": "ECDSA-P256-SHA256",
+  "signingKeyId": "desinzi-update-2026",
+  "signature": "rysIf1TJmi9ROiUE9nI3Pad0ixoYLV1pkumVa/ljSLI1qtklJMCbcEVT/YhlpG4p9o4PKn9q54e4/0epXwOWcw==",
+  "publicKeySpkiBase64": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEf8IBjrM5sIqP5E84QxngPgenvKr9erzDJL6qrnUNaMjvZWM2L0otcDSezeKyfM6dFhARcmnW49Bix4vJZ92fjg=="
+}

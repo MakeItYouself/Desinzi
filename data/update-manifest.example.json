@@ -1,0 +1,31 @@
+{
+  "version": "2026.10.04-016",
+  "generatedAt": "2026-10-04T20:55:00+02:00",
+  "payloadUrl": "/v1/knowledge/payload.json",
+  "sha256": "2c9c1234cea9e0f50ffe23ec81400ab64da094c67fcaa8b511ebab27d8c2e945",
+  "sources": [
+    "eurlex-cosmetics",
+    "ec-cosmetics-legislation",
+    "eu-reg-2026-909",
+    "ec-cosing",
+    "ec-sccs",
+    "eu-claims",
+    "aepd-design",
+    "eu-reg-2026-909-corrigendum",
+    "eu-reg-2026-78",
+    "eu-reg-2026-78-corrigendum",
+    "eurlex-current-consolidated-2026-05-18",
+    "sccs-opinions-2026",
+    "sccs-mandates-2026",
+    "sccs-thiomersal-2026",
+    "sccs-basic-brown-16-2026",
+    "eu-tbt-silver-2026",
+    "open-beauty-facts",
+    "aemps-cosmetics-legislation"
+  ],
+  "minAppVersion": "0.55.0",
+  "signatureAlgorithm": "ECDSA-P256-SHA256",
+  "signingKeyId": "desinzi-update-2026",
+  "signature": "rysIf1TJmi9ROiUE9nI3Pad0ixoYLV1pkumVa/ljSLI1qtklJMCbcEVT/YhlpG4p9o4PKn9q54e4/0epXwOWcw==",
+  "publicKeySpkiBase64": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEf8IBjrM5sIqP5E84QxngPgenvKr9erzDJL6qrnUNaMjvZWM2L0otcDSezeKyfM6dFhARcmnW49Bix4vJZ92fjg=="
+}

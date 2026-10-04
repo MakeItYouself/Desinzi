@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data
+backend/data/audit.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build output
+android/
+ios/
+dist/
+build/
+*.apk
+*.aab
+*.ipa
+
+# Signing material — NEVER commit
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.mobileprovision
+*.cer
+*.pem
+*.key
+
+# Local test artifacts
+coverage/
+playwright-report/
+test-results/
