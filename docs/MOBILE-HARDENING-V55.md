@@ -59,3 +59,14 @@ Esto evita acoplar la lógica científica a un proveedor de plugin y permite rev
 - Escáner nativo: pendiente de integración y prueba física.
 - OCR offline completo: pendiente de empaquetado y prueba de recursos locales.
 - Firma de aplicaciones: pendiente de toolchains/certificados reales.
+
+## Corrección de enfoque y lectura de códigos — 04/10/2026
+
+Tras una prueba real en un Samsung se detectó que la cámara solicitaba una resolución moderada y no pedía explícitamente enfoque continuo. La revisión añade:
+- captura trasera con objetivo 1920×1080 y hasta 30 fps cuando el dispositivo lo permite;
+- solicitud de `focusMode: continuous`, exposición y balance de blancos continuos cuando el hardware los declara compatibles;
+- zoom adaptativo inicial cuando el dispositivo expone capacidad de zoom;
+- controles de zoom en pantalla para facilitar que el código ocupe suficiente superficie sin asumir una capacidad concreta;
+- ciclo de detección más frecuente (140 ms) para reducir la latencia cuando `BarcodeDetector` está disponible.
+
+Estas mejoras son solicitudes de capacidades, no una garantía de enfoque físico: Android/Samsung puede ignorarlas según el navegador, WebView y cámara. La aplicación debe seguir ofreciendo entrada manual y, en la futura compilación nativa, un escáner nativo probado.

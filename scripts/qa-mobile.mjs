@@ -14,7 +14,7 @@ const pkg = JSON.parse(fs.readFileSync(path.join(root,'package.json'),'utf8'));
 assert.equal(pkg.version, '0.55.0');
 const app = fs.readFileSync(path.join(root,'app.js'),'utf8');
 assert.match(app, /navigator\.mediaDevices\?\.getUserMedia/);
-assert.match(app, /BarcodeDetector/);
+assert.match(app, /focusMode/);
 const html = fs.readFileSync(path.join(root,'index.html'),'utf8');
 assert.match(html, /accept="image\/\*"[^>]*capture="environment"/i);
 assert.match(app, /Tesseract\.createWorker/);
