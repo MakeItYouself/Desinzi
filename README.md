@@ -1,6 +1,4 @@
 ## V55 — Release Candidate técnico (04/10/2026)
-
-
 - Preparación de despliegue documentada en `docs/PRODUCTION-RUNBOOK-V55.md`; se incluye `backend/Dockerfile` ejecutable como usuario no root.
 
 - App: `0.55.0`.
@@ -11,6 +9,15 @@
 - La app sigue siendo un prototipo técnico/PWA: la firma y pruebas finales en dispositivos iOS/Android, el backend HTTPS de producción y la revisión jurídica final siguen siendo pasos externos obligatorios antes de publicar.
 - No se presenta como certificación toxicológica, clínica ni jurídica.
 - Se incorpora preparación móvil reproducible con `capacitor.config.json`, `npm run mobile:prepare` y `npm run mobile:qa`; esto no equivale todavía a una compilación o firma nativa.
+
+## Refuerzo de identificación de producto y traducción — 04/10/2026
+
+- La consulta por código de barras ya no limita la primera petición a `product_type=beauty`: prueba la ruta universal (`product_type=all`) y varias rutas compatibles de Open Beauty Facts antes de declarar que no existe una ficha.
+- La búsqueda por marca/nombre usa varias consultas y rutas de Open Beauty Facts y reconoce aliases de marcas propias habituales en España (por ejemplo, Deliplus/Mercadona, Cien/Lidl y Lacura/ALDI) además de marcas comerciales conocidas. El listado de marcas no implica que todos sus productos estén presentes en la base.
+- Se añade un fallback de ZXing en navegador cuando `BarcodeDetector` no está disponible. Sigue siendo necesario probarlo en Samsung/WebView real; no se garantiza el enfoque automático porque el navegador puede ignorar capacidades de cámara solicitadas.
+- Se añade traducción automática al español del texto OCR, conservando siempre el original y sin traducir los nombres INCI utilizados por el análisis.
+- Open Beauty Facts continúa siendo una fuente de datos de producto, no una autoridad reguladora ni una certificación.
+
 
 ## Preparación GitHub
 

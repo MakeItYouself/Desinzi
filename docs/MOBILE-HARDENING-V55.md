@@ -70,3 +70,12 @@ Tras una prueba real en un Samsung se detectó que la cámara solicitaba una res
 - ciclo de detección más frecuente (140 ms) para reducir la latencia cuando `BarcodeDetector` está disponible.
 
 Estas mejoras son solicitudes de capacidades, no una garantía de enfoque físico: Android/Samsung puede ignorarlas según el navegador, WebView y cámara. La aplicación debe seguir ofreciendo entrada manual y, en la futura compilación nativa, un escáner nativo probado.
+
+
+## Refuerzo adicional — identificación y traducción (04/10/2026)
+
+Se corrigió la ruta de identificación de producto para que el código manual pruebe varias rutas de Open Beauty Facts y no quede restringido inicialmente a `product_type=beauty`. La búsqueda por marca/nombre también prueba varias rutas y aliases de marcas.
+
+Cuando `BarcodeDetector` no está disponible, el navegador intenta cargar ZXing Browser como fallback. Esta vía depende de conectividad/CDN y debe probarse en el Samsung/WebView objetivo.
+
+Se añadió traducción automática al español para el texto capturado por OCR. El texto original se conserva y la traducción no sustituye los nombres INCI empleados en el análisis.
